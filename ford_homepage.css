@@ -1,3 +1,12 @@
 body {
-    background-color: aqua;
-};
+    background-color: lightblue !important; /* Using !important to manually overwrite the bootstrap external CSS to change background color */ 
+    max-width: 1300px; /* This is the closest I could do to match the width for the page*/
+    margin: 0 auto !important; 
+    float: none !important;
+}
+
+.navbar_font_size {
+    font-size: 12px !important;
+}
+
+
