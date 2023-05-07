@@ -5,8 +5,36 @@ body {
     float: none !important;
 }
 
+.navbar_border { /* This is for the bottom of the navbarto divide the two*/
+    border-bottom: 1px solid grey;
+}
+
 .navbar_font_size {
     font-size: 12px !important;
 }
+.icon{ /* This is for the magnifine glass and account logo on the navbar*/
+    height: 20px;
+    width: auto;
+    @media (max-width:991px) { /*the closest i could find to the breakpoint for when nav bar collapses */
+        display: none;
+        
+    };
+}
 
+.right_sided_icon { /*This is for when the nav bar collpases and will display the icons on the right */
+    height: 25px;
+    margin: 10px;
+    width: auto;
+    @media (min-width:991px) {
+        display:none;
+        
+    }
+}
 
+.margin_right{
+    margin-right: 15px;
+}
+
+.navbar_margin{ /*This is for the uncollapsed second part of the nav bar */
+    padding: 15px;
+}
