@@ -5,12 +5,12 @@ body {
     float: none !important;
 }
 
-.navbar_border { /* This is for the bottom of the navbarto divide the two*/
-    border-bottom: 1px solid grey;
-}
-
 .navbar_font_size {
     font-size: 12px !important;
+}
+.navbar_font_blue_when_hover:hover {
+    color: rgb(9, 9, 201) !important;
+
 }
 .icon{ /* This is for the magnifine glass and account logo on the navbar*/
     height: 20px;

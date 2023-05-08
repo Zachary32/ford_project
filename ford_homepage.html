@@ -12,7 +12,7 @@
   </head>
   <body>
       <p id="js_test"></p>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light navbar_border">
+      <nav class="navbar navbar-expand-lg navbar-light shadow bg-white">
         <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -38,21 +38,21 @@
           </div>
         </div>
       </nav>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light shadow bg-white">
         <div class="container-fluid">
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav mx-auto navbar_font_size"> <!-- ms-auto is to format the heading to the right of the navbar-->
-                <a class="nav-link margin_right" href="#">VEHICLES </a>
-                <p class="nav-link margin_right">|</p>
-                <a class="nav-link margin_right" href="#">FINANCE & PROMOTIONS</a>
-                <p class="nav-link margin_right">|</p>
-                <a class="nav-link margin_right" href="#">ELECTRIC & HYBRID</a>
-                <p class="nav-link margin_right">|</p>
-                <a class="nav-link margin_right" href="#"> TECHNOLOGY</a>
-                <p class="nav-link margin_right">|</p>
-                <a class="nav-link margin_right" href="#">OWNERS</a>
-                <p class="nav-link margin_right">|</p>
-                <a class="nav-link margin_right" href="#">SUPPORT</a>
+            <div class="navbar-nav mx-auto navbar_font_size">
+                <a class="nav-link navbar_font_blue_when_hover collapse navbar-collapse" href="#">VEHICLES </a> <!-- Added "collapse navbar-collapse" so when collapses it disappears from this navbar and leaves the one above it -->
+                <a class="nav-link margin_right collapse navbar-collapse">|</a> <!-- changed to <a> tags to help with alignment of other tags-->
+                <a class="nav-link collapse navbar-collapse margin_right navbar_font_blue_when_hover" href="#">FINANCE & PROMOTIONS</a>
+                <a class="nav-link margin_right collapse navbar-collapse">|</a>
+                <a class="nav-link margin_right navbar_font_blue_when_hover collapse navbar-collapse" href="#">ELECTRIC & HYBRID</a>
+                <a class="nav-link margin_right collapse navbar-collapse">|</a>
+                <a class="nav-link margin_right navbar_font_blue_when_hover collapse navbar-collapse" href="#"> TECHNOLOGY</a>
+                <a class="nav-link margin_right collapse navbar-collapse">|</a>
+                <a class="nav-link margin_right navbar_font_blue_when_hover collapse navbar-collapse" href="#">OWNERS</a>
+                <a class="nav-link margin_right collapse navbar-collapse">|</a>
+                <a class="nav-link margin_right navbar_font_blue_when_hover collapse navbar-collapse" href="#">SUPPORT</a>
             </div>
           </div>
         </div>
