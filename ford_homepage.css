@@ -38,3 +38,8 @@ body {
 .navbar_margin{ /*This is for the uncollapsed second part of the nav bar */
     padding: 15px;
 }
+
+.white_txt{
+    color: white;
+}
+
