@@ -43,3 +43,34 @@ body {
     color: white;
 }
 
+.text-right{
+    text-align: right;
+}
+.bottom_button{
+    justify-content: center;
+    align-items: center;
+    bottom: 5px;
+    right: 45%;
+    position: absolute;
+}
+
+.button_left{
+    display: flex !important;
+    justify-content: left;
+    align-items: left;
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    
+}
+.button_right{
+    display: flex !important;
+    justify-content: right;
+    align-items: right;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+
+}
+
+
