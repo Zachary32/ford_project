@@ -46,12 +46,28 @@ body {
 .text-right{
     text-align: right;
 }
+.btn{
+    padding: 10px 40px !important;
+    border-radius: 100px !important;
+}
+.transparent_btn{
+    background-color: transparent !important;
+}
+
+.btn:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transform: scale(1.1);
+    text-decoration: underline !important;
+    background-color: white !important
+
+}
 .bottom_button{
     justify-content: center;
     align-items: center;
     bottom: 5px;
-    right: 45%;
+    right: 40%;
     position: absolute;
+
 }
 
 .button_left{
@@ -72,5 +88,3 @@ body {
     bottom: 5px;
 
 }
-
-
